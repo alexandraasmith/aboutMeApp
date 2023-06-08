@@ -16,7 +16,7 @@ struct ContentView: View {
             VStack(alignment: .leading, spacing:20.0) {
                 
                 GroupBox() {
-                    Text ("         Alexandra A. Smith           ")
+                    Text ("         Alexandra A. Smith !          ")
                         .font(.title)
                         .fontWeight(.semibold)
                     
@@ -30,7 +30,6 @@ struct ContentView: View {
                 Button("Quick Facts") {
                     
                 }
-                .Color(.sRGB, red: 0.98, green: 0.97, blue: 0.90)
                 
                 }
             }
